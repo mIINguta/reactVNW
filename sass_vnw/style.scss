@@ -1,0 +1,23 @@
+$background-body: rosybrown;
+$principal-font: blue;
+$card-one: green;
+$card-two: yellow;
+$card-three: black;
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $background-body;
+    color: $principal-font;
+}
+.first-sec{
+    background-color: $card-one;
+}
+.second-sec{
+    background-color: $card-two;
+}
+.third-sec{
+    background-color: $card-three;
+}
